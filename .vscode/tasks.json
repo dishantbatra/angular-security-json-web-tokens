@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/PTC WebAPI/PTC WebAPI.csproj"
+                "${workspaceFolder}/PTCAPI/PTCAPI.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

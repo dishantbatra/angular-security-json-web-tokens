@@ -1,0 +1,14 @@
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTC WebAPI\obj\Debug\netcoreapp2.1\PTC WebAPI.csprojAssemblyReference.cache
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTC WebAPI\obj\Debug\netcoreapp2.1\PTC WebAPI.csproj.CoreCompileInputs.cache
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTC WebAPI\obj\Debug\netcoreapp2.1\PTC WebAPI.RazorAssemblyInfo.cache
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTC WebAPI\obj\Debug\netcoreapp2.1\PTC WebAPI.RazorAssemblyInfo.cs
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTC WebAPI\obj\Debug\netcoreapp2.1\PTC WebAPI.AssemblyInfoInputs.cache
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTC WebAPI\obj\Debug\netcoreapp2.1\PTC WebAPI.AssemblyInfo.cs
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTC WebAPI\bin\Debug\netcoreapp2.1\PTC WebAPI.deps.json
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTC WebAPI\bin\Debug\netcoreapp2.1\PTC WebAPI.runtimeconfig.json
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTC WebAPI\bin\Debug\netcoreapp2.1\PTC WebAPI.runtimeconfig.dev.json
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTC WebAPI\bin\Debug\netcoreapp2.1\PTC WebAPI.dll
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTC WebAPI\bin\Debug\netcoreapp2.1\PTC WebAPI.pdb
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTC WebAPI\obj\Debug\netcoreapp2.1\PTC WebAPI.RazorTargetAssemblyInfo.cache
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTC WebAPI\obj\Debug\netcoreapp2.1\PTC WebAPI.dll
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTC WebAPI\obj\Debug\netcoreapp2.1\PTC WebAPI.pdb

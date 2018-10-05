@@ -1,0 +1,14 @@
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTCAPI\bin\Debug\netcoreapp2.1\PtcApi.deps.json
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTCAPI\bin\Debug\netcoreapp2.1\PtcApi.runtimeconfig.json
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTCAPI\bin\Debug\netcoreapp2.1\PtcApi.runtimeconfig.dev.json
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTCAPI\bin\Debug\netcoreapp2.1\PtcApi.dll
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTCAPI\bin\Debug\netcoreapp2.1\PtcApi.pdb
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTCAPI\obj\Debug\netcoreapp2.1\PtcApi.csprojAssemblyReference.cache
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTCAPI\obj\Debug\netcoreapp2.1\PtcApi.csproj.CoreCompileInputs.cache
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTCAPI\obj\Debug\netcoreapp2.1\PtcApi.RazorAssemblyInfo.cache
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTCAPI\obj\Debug\netcoreapp2.1\PtcApi.RazorAssemblyInfo.cs
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTCAPI\obj\Debug\netcoreapp2.1\PtcApi.AssemblyInfoInputs.cache
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTCAPI\obj\Debug\netcoreapp2.1\PtcApi.AssemblyInfo.cs
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTCAPI\obj\Debug\netcoreapp2.1\PtcApi.RazorTargetAssemblyInfo.cache
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTCAPI\obj\Debug\netcoreapp2.1\PtcApi.dll
+E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\PTCAPI\obj\Debug\netcoreapp2.1\PtcApi.pdb
