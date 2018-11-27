@@ -1,18 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { Category } from './category';
 import { CategoryService } from './category.service';
-import { SecurityService } from '../security/security.service';
-import { AppUserAuth } from '../models/app-user-auth.model';
 
 @Component({
   templateUrl: './category-list.component.html'
 })
 export class CategoryListComponent implements OnInit {
   categories: Category[];
-  securityObject: AppUserAuth = null;
 
-  constructor(private categoryService: CategoryService, private securityService: SecurityService) {
-    this.securityObject = securityService.securityObject;
+  constructor(private categoryService: CategoryService) {
   }
 
   ngOnInit() {

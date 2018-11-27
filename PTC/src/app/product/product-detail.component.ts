@@ -29,22 +29,21 @@ export class ProductDetailComponent implements OnInit {
   ngOnInit() {
     this.getCategories();
     // Get the passed in product id
-    let id = +this.route.snapshot.paramMap.get('id');
+    const id = +this.route.snapshot.paramMap.get('id');
     // Create or load a product
     this.createOrLoadProduct(id);
   }
 
   private createOrLoadProduct(id: number) {
-    if (id == -1) {
+    if (id === -1) {
       // Create new product object
       this.initProduct();
-    }
-    else {
+    } else {
       // Get a product from product service
       this.productService.getProduct(id)
         .subscribe(product => {
           this.product = product;
-          this.originalProduct = Object.assign({}, this.product)
+          this.originalProduct = Object.assign({}, this.product);
         });
     }
   }

@@ -14,10 +14,12 @@ namespace PtcApi.Model {
         //                 Trusted_Connection=True;
         //                 MultipleActiveResultSets=true";
 
-        private const string CONN = @"Server=(localdb)\MSSQLLocalDB;
-    Database=PTC-Pluralsight;
-    AttachDbFilename=E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\SqlData\PTC-Pluralsight.mdf;
-    MultipleActiveResultSets=true";
+    //     private const string CONN = @"Server=(localdb)\MSSQLLocalDB;
+    // Database=PTC-Pluralsight;
+    // AttachDbFilename=E:\Pluralsight\Angular Path\Angular Security Using JSON Web Tokens\Application Practice\SqlData\PTC-Pluralsight.mdf;
+    // MultipleActiveResultSets=true";
+     private const string CONN = @"Data Source=DISHANT3146931\MSSQLSERVER1;Initial Catalog=PTC-Pluralsight;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+    
 
         protected override void OnConfiguring (
             DbContextOptionsBuilder optionsBuilder) {

@@ -21,13 +21,13 @@ const routes: Routes = [
     path: 'products',
     component: ProductListComponent,
     canActivate: [AuthGuard],
-    data: {claimType: 'canAccessProducts'}
+    data: {claimType: ['CanAccessProducts', 'CanAccessCategories']}
   },
   {
     path: 'productDetail/:id',
     component: ProductDetailComponent,
     canActivate: [AuthGuard],
-    data: {claimType: 'canAccessProducts'}
+    data: {claimType: 'CanAccessProducts'}
   },
   {
     path: 'categories',

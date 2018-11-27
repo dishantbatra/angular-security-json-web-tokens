@@ -54,6 +54,12 @@ namespace PtcApi {
                 .AddJsonOptions (options =>
                     options.SerializerSettings.ContractResolver =
                     new CamelCasePropertyNamesContractResolver ());
+
+            services.AddAuthorization (cfg => {
+                cfg.AddPolicy ("CanAccessProducts",
+                 p => p.RequireClaim ("CanAccessProducts", "true"));
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

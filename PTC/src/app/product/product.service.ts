@@ -2,10 +2,9 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { of } from 'rxjs/observable/of';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-
 import { Product } from './product';
 
-const API_URL = "http://localhost:5000/api/product/";
+const API_URL = 'http://localhost:5000/api/product/';
 const httpOptions = {
   headers: new HttpHeaders({
     'Content-Type': 'application/json'
@@ -14,11 +13,13 @@ const httpOptions = {
 
 @Injectable()
 export class ProductService {
-
-  constructor(private http: HttpClient) { }
+  // constructor(private http: HttpClient, private securityService: SecurityService ) {
+  constructor(private http: HttpClient) {}
 
   getProducts(): Observable<Product[]> {
+    // const httpOption = new HttpHeaders().set('Authorization', 'Bearer ' + this.securityService.securityObject.bearerToken );
     return this.http.get<Product[]>(API_URL);
+    // return this.http.get<Product[]>(API_URL, {headers: httpOption});
   }
 
   getProduct(id: number): Observable<Product> {

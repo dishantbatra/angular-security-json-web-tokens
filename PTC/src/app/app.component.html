@@ -8,10 +8,18 @@
     </div>
     <ul class="nav navbar-nav">
       <li>
-        <a *ngIf="securityObject.canAccessProducts" routerLink="/products">Products</a>
+        <!-- Since We don't have properties for each we will be using directive -->
+        <!-- <a *ngIf="securityObject.canAccessProducts" routerLink="/products">Products</a> -->
+        <ng-container  *ngIf="securityObject.isAuthenticated" >
+            <a routerLink="/products" *hasClaim="'canAccessProducts'">Products</a>
+        </ng-container>
+
       </li>
       <li>
-        <a *ngIf="securityObject.canAccessCategories" routerLink="/categories">Categories</a>
+        <!-- <a *ngIf="securityObject.canAccessCategories" routerLink="/categories">Categories</a> -->
+        <ng-container *ngIf="securityObject.isAuthenticated" >
+            <a routerLink="/categories" *hasClaim="'canAccessCategories'">Categories</a>
+        </ng-container>
       </li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
